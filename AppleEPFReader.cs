@@ -596,3 +596,17 @@ public class AppleEPFReader : IDataReader, IEnumerable<string[]> {
 
 	#endregion
 }
+
+/// <summary>
+/// Apple EPF Export Mode
+/// </summary>
+public enum AppleEPFExportMode {
+	/// <summary>
+	/// Full Export
+	/// </summary>
+	FULL,
+	/// <summary>
+	/// Incremental Export
+	/// </summary>
+	INCREMENTAL
+}
